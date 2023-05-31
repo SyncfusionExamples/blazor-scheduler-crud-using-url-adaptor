@@ -1,0 +1,22 @@
+﻿@page "/"
+
+@using Syncfusion.Blazor.Data;
+@using Syncfusion.Blazor.Schedule
+@using Url_Adaptor.Data
+@using Url_Adaptor.Models
+
+<SfSchedule TValue="Event" Height="550px" @bind-SelectedDate="@currentDate" AllowMultiDrag="true">
+    <ScheduleEventSettings TValue="Event">
+        <SfDataManager Url="api/Default" UpdateUrl="/api/Default/Update" RemoveUrl="/api/Default/Delete" InsertUrl="/api/Default/Add" CrudUrl="/api/Default/Batch" Adaptor="Adaptors.UrlAdaptor">
+        </SfDataManager>
+    </ScheduleEventSettings>
+    <ScheduleViews>
+        <ScheduleView Option="View.Month"></ScheduleView>
+    </ScheduleViews>
+</SfSchedule>
+
+@code {
+    DateTime currentDate = new DateTime(2022, 12, 6);
+}
+
+
