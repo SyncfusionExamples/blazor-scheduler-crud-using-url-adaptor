@@ -1,8 +1,8 @@
-# Blazor-Scheduler-Crud-Using-URL-Adaptor
+# How to perform CRUD operations in Blazor Scheduler using URL Adaptor
 
 ## Overview
 
-A quick start project demonstrating CRUD operations on a Blazor Scheduler component using the URL Adaptor of Blazor DataManager. Provides practical implementation for managing scheduler events through HTTP-based data operations.
+A quick start project demonstrating CRUD operations on a [Blazor Scheduler](https://www.syncfusion.com/blazor-components/blazor-scheduler) component using the URL Adaptor of Blazor DataManager. Provides practical implementation for managing scheduler events through HTTP-based data operations.
 
 ## Features
 
