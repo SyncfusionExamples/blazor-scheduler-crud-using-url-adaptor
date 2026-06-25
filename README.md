@@ -1,7 +1,5 @@
 # How to perform CRUD operations in Blazor Scheduler using URL Adaptor
 
-## Overview
-
 A quick start project demonstrating CRUD operations on a [Blazor Scheduler](https://www.syncfusion.com/blazor-components/blazor-scheduler) component using the URL Adaptor of Blazor DataManager. Provides practical implementation for managing scheduler events through HTTP-based data operations.
 
 ## Features
@@ -13,25 +11,15 @@ A quick start project demonstrating CRUD operations on a [Blazor Scheduler](http
 
 ## Prerequisites
 
-Before working on this project, ensure you have:
+* Visual Studio 2022
+* .NET 6.0 or later
 
-- **Visual Studio 2022** (latest version)
-- **.NET 6.0 or higher**
-- Blazor WebAssembly or Server development environment
+## How to run the project
 
-## Installation & Setup
-
-1. Clone the repository: `Blazor-Scheduler-Crud-Using-URL-Adaptor`
-2. Open the solution in Visual Studio 2022
-3. Restore NuGet packages: `dotnet restore`
-4. Build the project: `dotnet build`
-
-## How to Run
-
-* Open the repository in Visual Studio 2022
-* Build the solution (Build > Build Solution)
-* Run the application (F5 or Debug > Start Debugging)
-* View the Scheduler with full CRUD functionality in your browser
+1. Checkout this project to your local machine
+2. Open the solution file using Visual Studio 2022
+3. Build the solution to restore the required NuGet packages
+4. Press `F5` to start the application
 
 ## Documentation
 
