@@ -1,6 +1,6 @@
 # How to perform CRUD operations in Blazor Scheduler using URL Adaptor
 
-A quick start project demonstrating CRUD operations on a [Blazor Scheduler](https://www.syncfusion.com/blazor-components/blazor-scheduler) component using the URL Adaptor of Blazor DataManager. Provides practical implementation for managing scheduler events through HTTP-based data operations.
+A quick start project demonstrating CRUD operations on a [Blazor Scheduler](https://www.syncfusion.com/scheduler-sdk/blazor-scheduler) component using the URL Adaptor of Blazor DataManager. Provides practical implementation for managing scheduler events through HTTP-based data operations.
 
 ## Features
 
@@ -11,26 +11,42 @@ A quick start project demonstrating CRUD operations on a [Blazor Scheduler](http
 
 ## Prerequisites
 
-* Visual Studio 2026 or Visual Studio 2022 (17.14+)
-* .NET 10.0 SDK or later
+- Visual Studio 2026 or Visual Studio Code
+- [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0)
 
 ## How to run the project
 
-1. Checkout this project to your local machine
-2. Open the solution file using Visual Studio 2026 or Visual Studio 2022 (17.14+)
-3. Build the solution to restore the required NuGet packages
-4. Press `F5` to start the application
+**Visual Studio 2026**:
+
+* Checkout this project to a location in your disk.
+* Open the project (`Url Adaptor.csproj`) file.
+* Restore the NuGet packages.
+* Run the project.
+
+**Visual Studio Code**:
+
+* Open the repository folder in Visual Studio Code.
+* Open the integrated terminal.
+* Navigate to the repository root.
+
+```bash
+cd blazor-scheduler-crud-using-url-adaptor
+dotnet restore
+dotnet run
+```
+
+Open the URL displayed in the terminal after the application starts.
 
 ## Documentation
 
 **Blazor Framework Documentation:**
 - Introduction: https://blazor.syncfusion.com/documentation/introduction
-- Scheduler Component: https://blazor.syncfusion.com/documentation/schedule/getting-started
-- URL Adaptor & Data Binding: https://blazor.syncfusion.com/documentation/scheduler/data-binding#url-adaptor
+- Scheduler Component: https://help.syncfusion.com/scheduler-sdk/blazor/schedule/getting-started-with-server-app
+- URL Adaptor & Data Binding: https://help.syncfusion.com/scheduler-sdk/blazor/schedule/data-binding#url-adaptor
 
 **Additional Resources:**
-- [Syncfusion Blazor Documentation](https://help.syncfusion.com/)
-- [Syncfusion Components](https://blazor.syncfusion.com)
+- [Syncfusion Blazor Documentation](https://help.syncfusion.com)
+- [Syncfusion Components](https://blazor.syncfusion.com/demos/)
 
 ## Support
 
